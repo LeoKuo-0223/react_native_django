@@ -24,7 +24,7 @@ SECRET_KEY = 'm^$qrboaxmt5-xl)%m8-qq+#k+yvm=ae=2r5#lqo$wc3$vzbf*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Add
 REST_FRAMEWORK = {
