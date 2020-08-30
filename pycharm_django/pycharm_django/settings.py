@@ -39,6 +39,7 @@ REST_FRAMEWORK = {
 
 INSTALLED_APPS = [
     'ProjectApp.apps.ProjectappConfig',  # Add
+    'MissionPage.apps.MissionpageConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
